@@ -1,0 +1,55 @@
+p {
+ font-size:40px;
+ color:brown;
+ text-align: center;
+ background-color: bisque;
+}
+section{
+    margin:auto;
+    background-color: bisque;
+    height:850px;
+    width:700px;
+    
+}
+li{
+    font-size:30px;
+    color:brown;
+text-align: center;
+}
+ ::placeholder{
+    color: green;
+    text-align: center;
+}
+legend{
+    text-align: center;
+    text-decoration: wavy;
+    font-size: 25px;
+    color: green;
+}
+
+    
+
+input{
+    height:60px;
+    width:300px;
+    margin-left: 170px;
+    border-bottom-color:green;
+    font-size: 21px;
+    color:brown ;
+}
+
+button{
+    text-align: center;
+    align-self: center;
+    margin-left:250px;
+    border-style:groove;
+    border-color: brown;
+    color: green;
+    width: 140px;
+    height:70px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul { list-style: none;} /* si devono accentrare solo gli input e il container div*/
+td {height:300px ;width:550px;}
+footer{background-color: rgb(218, 172, 172);border:3px solid black;width:1320px;height:250px;margin-top: 50px;}

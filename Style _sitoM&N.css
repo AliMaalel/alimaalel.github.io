@@ -1,0 +1,33 @@
+
+
+
+   ul {
+    list-style-type:none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 180px;
+    display: block;
+    background-color: bisque;
+   
+}
+/*come importare nuovi family-font?*/
+   a:link{color:green;font-family:Verdana, Geneva, Tahoma, sans-serif ;text-decoration-line: none;font-size: 20px;}    
+   a:visited{color:brown;font-family:Verdana, Geneva, Tahoma, sans-serif;text-decoration-line: none;font-size: 20px;}   
+   a:hover{color:black;text-decoration-line: none;font-size: 20px;}
+  
+
+   
+  
+
+   aside{ margin-left: 1120px;height:900px;width:200px;border: 3px solid black;margin-top: 30px;}
+   header{text-align: center;background-color:rgb(218, 172, 172); font-size: 30px;color: brown;font-family: 'Times New Roman', Times, serif;height:55px;padding-top: 25px;}
+   footer{background-color: rgb(218, 172, 172);border:3px solid black;width:1320px;height:250px;}
+
+
+li a {float:left;
+   display: block;padding: 10px;text-align: center;text-decoration: none;
+   background-color: bisque;}
+ 
+ li a:hover {
+   background-color:rgb(101, 195, 101);
+ }
+ ul li {margin: 0%;text-align: right;}
