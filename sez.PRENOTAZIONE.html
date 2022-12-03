@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang ="it-IT">
+    <head>
+<title>Prenotazione M&N</title> <!--come faccio ad inserire un logo nella pagina del titolo? -->
+<link rel="icon" type="image/x-icon" href="Immagini/logoM&N.png">
+  
+
+   <link rel="stylesheet" type="text/css"   href="Style_sitoM&N">
+   
+   <link rel="stylesheet" type="text/css"   href="Style_prenot.M&N.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UT-8"> </meta>
+   
+   
+   
+
+    <!-- <script> </script> -->
+    <meta name="keywords"  content="prenota , ristorante , mascalucia ,online "> </meta>
+    <meta > </meta>
+<!--<base></base> -->
+
+</head>
+<body style="background-image:url(logoM&N.png);"> <!--QUesta pagina conterrà il form da compilare per la prenotazione onLINE-->
+   <p ><b> Se visitando il nostro spazio online , 
+    ti abbiamo gia' fatto venir fame, 
+    non esitare a riservare il tuo tavolo compilando i seguenti campi! </b><p>
+
+
+
+
+
+<section> <!--come fare ad accentrare un block level? div,img,table,form-->
+  <ul >
+    <form name="prenotazione" method="post" action="">
+      <legend style="text-align:center">PRENOTA ORA IL TUO TAVOLO!</legend> <br><br>
+  
+      <li><label for = name  >COGNOME e NOME </label></li><br>
+  <input id="name" name="name" type="text" placeholder="es. Guardabene Mario "  required autocapitalize="characters"> <br><br> <!--la funzione autocapitalize non vha-->
+  
+  <li><label for =data >CHE GIORNO VERRAI?</label></li><br>
+  <input id="data" name="data" type="date" placeholder="es 2 Luglio" required autofocus><br><br><!-- non posso d efinire il vettore  dei margini sinistri di ogni elemento di QUELLA lista-->
+                                  <!--cosi come il vettore dei placeholdem , o for della lista-->
+  <li><label for=pax >IN QUANTI SARETE?</label></li><br>
+  <input id="pax" name="pax" type="number" placeholder="es 10" required autofocus> <br><br>
+  
+  <li><label for=orario >ORARIO</label></li><br>
+  <input id="orario" name="orario" type="time" placeholder="es 20:45" required autofocus> <br><br>
+  
+  <li><label for=note> RICHIESTE PARTICOLARI</label></li><br>
+  <textarea style="margin-left: 25%;"id="note" name="note" type="text" rows="6" cols="40">"es allergie , posizione tavolo ,vuoi trovare già la torta al locale?" ></textarea> <br><br>
+  <br>
+  <button type=submit name="submit" > PRENOTA </button>
+  <!--come formattarela il testo inserito dall'utente,di che tipo di variabile si tratta? --> ,
+  <!--variabili <li>,<input>, <div> <table> 
+    <!-la tabella nella forma superior ha piu componenti del td tr cellrow cellspan -->
+  
+    </form>
+  </section>
+
+<footer></footer>
+
+</body>
+</html>
